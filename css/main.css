@@ -60,6 +60,11 @@ body{
     transition: 500ms ease;
 }
 
+.navigation .active{
+    background-color: #595959e5;
+    border-color: #8c8c8cd6;
+}
+
 header{
     margin: 100px 10em 100dvh 10em;
     background: url("assets\Images\NewsHeader.jpg");
@@ -190,6 +195,32 @@ h1{
     align-items: center;
     border: 0px solid;
 }
+
+#readMore{
+    border-color: #363636be;
+    justify-content: center;
+    background-color: #1a1a1a;
+    margin: 50px 40% 50px 40% ;
+    border-radius: 50px;
+}
+
+#readMore a{
+    text-decoration: none;
+    color: ivory;
+}
+
+#readMore:hover{
+    color: rgba(255, 0, 0, 0.631);
+    border-bottom: rgba(255, 0, 0, 0.331) solid;
+    transition: 500ms ease;
+}
+
+#readMore a:hover{
+    color: rgba(255, 0, 0, 0.631);
+    transition: 200ms ease;
+}
+
+
 
 footer{
     background-color: #0e0f1b;
